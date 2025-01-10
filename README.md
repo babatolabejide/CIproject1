@@ -247,51 +247,49 @@ The data analysis techniques were structured in a systematic manner to ensure co
 * Data Usage Permissions: Verified that data usage permissions were in place, ensuring that the dataset was used appropriately and legally.
 * Transparency: Maintained transparency in methodology and results, allowing stakeholders to understand and question the findings.
 
-## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
-
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
 * What new skills or tools do you plan to learn next based on your project experience? 
 
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
-
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+Pandas 
+
+Purpose: Data manipulation and analysis.
+
+Matplotlib
+
+Purpose: Creating static, interactive, and animated visualizations.
+
+Seaborn
+
+Purpose: Statistical data visualization built on top of Matplotlib.
+
+Numpy
+
+Purpose: Support for large, multi-dimensional arrays and matrices, along with mathematical functions to operate on these arrays.
 
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+In this project, the content, code snippets, and guidance were primarily sourced from the following tools and platforms:
 
-### Content 
+ChatGPT (by OpenAI)
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+Provided detailed explanations, code examples, and assistance in developing the ETL pipeline, data analysis, and visualization scripts.
+Assisted in refining project ideas, structuring the analysis, and generating insights from the data.
 
-### Media
+Copilot 
 
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
+Offered code suggestions and auto-completions while writing Python scripts, enhancing the efficiency of coding and ensuring best practices were followed.
+Helped in generating template code structures for data loading, transformation, and visualization.
+
+Learning Management System (LMS) from Code Institute
+
+Served as a foundational resource for the theoretical concepts applied in the project.
+Provided learning materials and project guidelines that informed the structure and implementation of the data analysis process.
+These sources were instrumental in the development of the project, ensuring that best practices in data analysis and visualization were followed while maintaining originality in the project implementation.
 
 
-
-## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+## Acknowledgements 
+I would like to extend my heartfelt gratitude to Vasilica Pavaloi and Niel McEwen for their invaluable guidance and support throughout this project. Their expertise and encouragement have been instrumental in my learning journey.
+I would also like to thank my classmates for their collaboration and insightful feedback, which greatly contributed to the successful completion of this project.
