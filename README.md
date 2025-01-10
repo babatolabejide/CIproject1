@@ -248,8 +248,48 @@ The data analysis techniques were structured in a systematic manner to ensure co
 * Transparency: Maintained transparency in methodology and results, allowing stakeholders to understand and question the findings.
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+Handling Missing Data:
+
+Challenge: The dataset contained missing values, particularly in the markdown features, which could skew the analysis.
+Strategy: Used data imputation techniques such as filling missing values with the mean or median for continuous variables. Additionally, explored the impact of missing data by visualizing the distribution of sales with and without imputed values to ensure robust results.
+
+Managing Complex Data Transformations:
+
+Challenge: Creating new features, such as the difference in sales between holiday and non-holiday weeks, required careful data manipulation.
+Strategy: Utilized Python's Pandas library for efficient data transformation. Structured the ETL process with clear steps (Extract, Transform, Load) to systematically handle data cleaning and feature engineering.
+
+Visualizing High-Dimensional Data:
+
+Challenge: With multiple stores, departments, and time periods, it was challenging to create clear and insightful visualizations.
+Strategy: Used Seaborn and Matplotlib to generate various types of visualizations (bar charts, line charts, pie charts) that highlighted key trends and insights. Focused on interactive filtering and aggregating data for clarity.
+
+Understanding Seasonal Trends and Promotions Impact:
+
+Challenge: Isolating the impact of holidays and promotions on sales required careful analysis.
+Strategy: Segmented the data by holiday and non-holiday periods, and visualized the effect of markdowns using scatter plots. Conducted comparative analysis to show differences in sales performance during these periods.
+
+## New Skills or Tools to Learn Next
+
+Advanced Data Visualization Tools:
+
+Plan: Explore tools like Tableau or Power BI for more interactive and dynamic dashboards, which could enhance the presentation of complex data trends and insights.
+
+Time Series Analysis:
+
+Plan: Dive deeper into time series forecasting techniques using libraries like statsmodels or Prophet. This would improve the ability to predict future sales trends based on historical data.
+
+Machine Learning for Predictive Analytics:
+
+Plan: Learn and apply machine learning models, such as regression models or ensemble methods (e.g., Random Forest, XGBoost), to predict sales and customer behavior more accurately.
+
+Big Data Technologies:
+
+Plan: Gain proficiency in big data tools like Apache Spark or Hadoop for handling larger datasets efficiently, which would be useful for scaling analysis to larger retail datasets.
+
+Cloud Platforms:
+
+Plan: Explore cloud-based services like AWS or Google Cloud for deploying data pipelines and visualizations, enabling real-time data processing and analysis.
+These next steps will build on the foundational skills gained from this project, allowing for more sophisticated data analysis and visualization capabilities in future projects.
 
 ## Main Data Analysis Libraries
 Pandas 
